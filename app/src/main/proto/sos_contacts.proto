@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+option java_package = "reliefone";
+option java_multiple_files = true;
+
+message SosContacts {
+  repeated string items = 1;
+}
